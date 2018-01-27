@@ -1,0 +1,116 @@
+html, body, header, footer, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+
+}
+figure.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8px;
+    border:2px solid
+
+}
+figure{
+    background-color: white;
+    padding: 1em 0 1em 0;
+}
+
+
+div.room {
+    width: 200px;
+    display: inline-block;
+
+}
+div.rooms {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url('cave-background.jpg');
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 650px;
+    margin: auto;
+
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3622;
+    color: white;
+}
+
+img figcaption a{
+    align:center;
+    color: #3f3622;
+}
+
+header nav p{
+    background-color: #3f3622;
+}
+div p, figcaption{
+    padding: 0.25em 0 0 0;
+    text-align: center;
+}
+figcaption, figcaption a{
+    font-size: 1em;
+    font-family: "Arial", Arial, sans-serif;
+
+}
+h1{
+    text-align: center;
+    padding: 0.125em 0 0.125em 0;
+}
+header nav{
+    text-align: right;
+    color: white;
+ }
+header nav p a{
+    color:white;
+}
+header h1{
+    font-size: 3em;
+}
+div.page{
+    background-color: white;
+}
+div.page p{
+    font-size: 1.25em;
+    padding: 0.5em 0 0.5em 0;
+}
+div.page p B I{
+    font-size: 1.25em;
+
+}
+div.page p A{
+    color:#3f3622;
+
+}
+div.end p{
+    padding: 0.5em 0 0.5em 0;
+}
+
+div.article p{
+    font-size: 1em;
+    text-align: justify;
+    padding: 15px;
+}
+p{
+    font-family: "Arial", Arial, sans-serif;
+}
+
+nav p a{
+    font-family: Georgia, serif;
+    font-size:0.85em;
+}
